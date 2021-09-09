@@ -20,6 +20,7 @@ public class GameUI : MonoBehaviour
 
     public void Restart()
     {
+        levelPercentage=0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

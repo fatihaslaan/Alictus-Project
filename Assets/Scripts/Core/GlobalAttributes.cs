@@ -2,7 +2,7 @@
 
 public static class GlobalAttributes
 {
-    public static int currentLevel=2;
+    public static int currentLevel=3;
 
     public static void NextLevel()
     {

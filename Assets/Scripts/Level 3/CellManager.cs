@@ -12,7 +12,7 @@ public class CellManager : MonoBehaviour
     int totalRow, totalColumn; //Cell size
 
     [SerializeField]
-    float cellsLeftLimit, cellsRightLimit, cellsBottomLimit, cellsTopLimit; //To create nodes nodes between cell borders (we will use that nodes to spawn objects and place cells)
+    float cellsLeftLimit, cellsRightLimit, cellsBottomLimit, cellsTopLimit; //To create nodes between cell borders (we will use that nodes to spawn objects and place cells)
 
     float columnGap, rowGap; //Gap between columns and rows
 

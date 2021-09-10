@@ -65,7 +65,7 @@ public class Ball : MonoBehaviour
     {
         if (col.transform.tag == "Bottom Barrier")
         {
-            //Game over
+            GameUI.gameOver=true;
         }
         else if (col.transform.tag == "Right Barrier" || col.transform.tag == "Left Barrier") //Change direction when hitting barriers
         {

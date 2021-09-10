@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class GameUI : MonoBehaviour
 {
     public static float levelPercentage;
+    public static bool gameOver;
 
     [SerializeField]
     Text percentageText;
@@ -14,7 +15,13 @@ public class GameUI : MonoBehaviour
         percentageText.text=levelPercentage+"%";
         if(levelPercentage==100)
         {
-            //Level Complete
+            GlobalAttributes.NextLevel();
+            Restart();
+        }
+        if(gameOver)
+        {
+            gameOver=false;
+            Restart();
         }
     }
 

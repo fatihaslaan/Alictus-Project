@@ -19,10 +19,6 @@ public class FoodMatcher : MonoBehaviour
                 id=i; //To upgrade food
             }
         }
-        if(id==FoodManager.GetInstance().foods.Count-1)
-        {
-            //GameOver
-        }
     }
 
     void OnCollisionEnter(Collision col) 

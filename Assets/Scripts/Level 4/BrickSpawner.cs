@@ -16,6 +16,7 @@ public class BrickSpawner : MonoBehaviour
 
     void Start()
     {
+        Ball.totalBricks=0;
         for (int i = 0; i < totalRow; i++)
         {
             for (int j = 0; j < totalColumn; j++)

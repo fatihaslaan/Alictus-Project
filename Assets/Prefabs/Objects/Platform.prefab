@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5185155412175052498}
   m_Layer: 0
   m_Name: Barrier
-  m_TagString: Untagged
+  m_TagString: Left Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5185155412175052496}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5356921, y: 0.6955, z: 0}
-  m_LocalScale: {x: 0.07154499, y: 2.3906145, z: 1.0552728}
+  m_LocalPosition: {x: -0.5489, y: 0.6955, z: 0}
+  m_LocalScale: {x: 0.097903185, y: 2.3906145, z: 1.0552728}
   m_Children: []
   m_Father: {fileID: 5185155412593040780}
   m_RootOrder: 3
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 5185155412451819404}
   m_Layer: 0
   m_Name: Barrier
-  m_TagString: Untagged
+  m_TagString: Top Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,8 +120,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5185155412451819394}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00026623355, y: 0.696, z: 0.5138392}
-  m_LocalScale: {x: 1.1410009, y: 2.3920503, z: 0.027753655}
+  m_LocalPosition: {x: 0.0002, y: 0.696, z: 0.5239}
+  m_LocalScale: {x: 1.1946359, y: 2.39205, z: 0.047817886}
   m_Children: []
   m_Father: {fileID: 5185155412593040780}
   m_RootOrder: 1
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 5185155412465874497}
   m_Layer: 0
   m_Name: Barrier
-  m_TagString: Untagged
+  m_TagString: Bottom Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,8 +213,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5185155412465874503}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00026623355, y: 0.696, z: -0.51384306}
-  m_LocalScale: {x: 1.1410009, y: 2.3920503, z: 0.027753655}
+  m_LocalPosition: {x: 0.001, y: 0.696, z: -0.5244}
+  m_LocalScale: {x: 1.1908455, y: 2.39205, z: 0.048797872}
   m_Children: []
   m_Father: {fileID: 5185155412593040780}
   m_RootOrder: 0
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 5185155412563776672}
   m_Layer: 0
   m_Name: Barrier
-  m_TagString: Untagged
+  m_TagString: Right Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -306,8 +306,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5185155412563776678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.53462094, y: 0.6955, z: 0}
-  m_LocalScale: {x: 0.07154499, y: 2.3906145, z: 1.0552728}
+  m_LocalPosition: {x: 0.5483, y: 0.6955, z: 0}
+  m_LocalScale: {x: 0.098991364, y: 2.3906145, z: 1.0552728}
   m_Children: []
   m_Father: {fileID: 5185155412593040780}
   m_RootOrder: 2

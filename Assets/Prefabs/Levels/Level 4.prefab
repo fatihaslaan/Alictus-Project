@@ -12,6 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45fa545fe1eebd4fb9b57186d6c9784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &1360150361
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3899143822559371221}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
 --- !u!1 &8194560467969094589
 GameObject:
   m_ObjectHideFlags: 0
@@ -27,7 +43,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8194560467969094586
 Transform:
   m_ObjectHideFlags: 0
@@ -52,6 +68,71 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8194560467969094586}
     m_Modifications:
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: totalRow
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: totalColumn
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: brickAreaTopLimit
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: brickAreaLeftLimit
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: brickAreaRightLimit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: brickAreaBottomLimit
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: brickTypes.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: brickTypes.Array.data[0]
+      value: 
+      objectReference: {fileID: 7610585764391009931, guid: 57e3e0381e0d85442a3f9a16cf535cb8,
+        type: 3}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: brickTypes.Array.data[1]
+      value: 
+      objectReference: {fileID: 1825541345908871437, guid: d3604b67d6c577b4fa417bd894a9ed56,
+        type: 3}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: brickTypes.Array.data[2]
+      value: 
+      objectReference: {fileID: 3745175208894527376, guid: fa56728a2366d5043a489ba759ac8a39,
+        type: 3}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: brickTypes.Array.data[3]
+      value: 
+      objectReference: {fileID: 165093154108338884, guid: d3553261bd8a4e74aac98a99e258aa98,
+        type: 3}
+    - target: {fileID: 9052749500614171650, guid: 37577ee6fcca6c8468c21dfb34358d60,
+        type: 3}
+      propertyPath: brickTypes.Array.data[4]
+      value: 
+      objectReference: {fileID: 7121221573656604277, guid: 6a44b30bc3bab694596e425a17fad285,
+        type: 3}
     - target: {fileID: 9052749500614171652, guid: 37577ee6fcca6c8468c21dfb34358d60,
         type: 3}
       propertyPath: m_Name
@@ -236,7 +317,7 @@ PrefabInstance:
     - target: {fileID: 5162365361875122601, guid: bf07b94856092aa41806663551da8808,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.6519578
+      value: -2.602
       objectReference: {fileID: 0}
     - target: {fileID: 5162365361875122601, guid: bf07b94856092aa41806663551da8808,
         type: 3}

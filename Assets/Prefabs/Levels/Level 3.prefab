@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &317159149777261922
 Transform:
   m_ObjectHideFlags: 0
@@ -38,6 +38,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 317159149777261922}
     m_Modifications:
+    - target: {fileID: 9017975165708220608, guid: 46acab446285a714c85b9a1442ee085f,
+        type: 3}
+      propertyPath: cellsLeftLimit
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017975165708220608, guid: 46acab446285a714c85b9a1442ee085f,
+        type: 3}
+      propertyPath: cellsRightLimit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017975165708220608, guid: 46acab446285a714c85b9a1442ee085f,
+        type: 3}
+      propertyPath: cellsBottomLimit
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 9017975165708220610, guid: 46acab446285a714c85b9a1442ee085f,
         type: 3}
       propertyPath: m_Name

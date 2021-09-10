@@ -3,7 +3,7 @@
 public class FoodMatcher : MonoBehaviour
 {
     public static int possibleMatches; //Calculating percentage
-    static int totalMatches=0;
+    public static int totalMatches=0;
 
     static bool matched=false;
     GameObject newFood;
